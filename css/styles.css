@@ -129,6 +129,10 @@ ul {
 /* Hero section */
 .Hero-section {
   padding: 272px 0px;
+  background-image: url(/images/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 .hero-title {
   margin-bottom: 0;
