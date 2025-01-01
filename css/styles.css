@@ -106,14 +106,6 @@ ul {
   font-weight: 600;
 }
 
-/* Bakery landing */
-.bakery-landing {
-  background-image: url(/images/hero-background.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-
 /* header */
 .header-container {
   display: flex;
