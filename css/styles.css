@@ -134,6 +134,9 @@ ul {
   background-position: center top;
   background-size: cover;
 }
+.Hero-section:first-child {
+  justify-content: flex-start;
+}
 .hero-title {
   margin-bottom: 0;
   color: var(--color-primary-light);
@@ -219,6 +222,13 @@ ul {
   border: 2px solid var(--color-brand-light);
   content: "";
 }
+.chefs-list {
+  display: flex;
+  justify-content: space-between;
+}
+.chef-card {
+  display: flex;
+}
 .chef-img {
   width: 241px;
   height: 390px;
@@ -227,6 +237,12 @@ ul {
   opacity: 0px;
   box-shadow: -16px 16px 0px 0 var(--color-primary-light),
     -16px 16px 0px 2px var(--color-secondary-dark);
+}
+.chef-text {
+  padding-left: 30px;
+  width: 334px;
+  gap: 0px;
+  opacity: 0px;
 }
 /* format section */
 .format-title {
@@ -278,6 +294,12 @@ ul {
   color: #a18268;
   font-size: 14px;
 }
+.addres-social {
+  fill: var(--color-primary-light);
+}
+.addres-social:hover {
+  fill: var(--color-brand-dark);
+}
 .fotter {
   background-image: url(../images/fotter-background.jpg);
   background-color: var(--color-primary-dark);
@@ -289,4 +311,24 @@ ul {
   padding: 32px 100px;
   display: flex;
   justify-content: space-around;
+}
+.fotter-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.fotter-ul-address {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.fotter-social {
+  display: flex;
+  padding-top: 16px;
+  column-gap: 22px;
+}
+.fotter-copyright {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
 }
